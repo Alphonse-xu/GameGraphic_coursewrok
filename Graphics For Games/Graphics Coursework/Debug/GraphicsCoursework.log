@@ -1,0 +1,8 @@
+﻿  coursework.cpp
+  Renderer.cpp
+D:\GitHub\GameGraphic_coursewrok\NCLGL\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+LINK : warning LNK4286: 符号“___glewUseProgram”(在“glew32.lib(glew.obj)”中定义)已由“Renderer.obj”导入
+glew32.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32.lib(glew.obj)”或在“D:\GitHub\GameGraphic_coursewrok\Graphics For Games\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  GraphicsCoursework.vcxproj -> D:\GitHub\GameGraphic_coursewrok\Graphics For Games\Debug\GraphicsCoursework.exe
