@@ -1,23 +1,2 @@
-﻿  Camera.cpp
-  GameTimer.cpp
-  Keyboard.cpp
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  Matrix4.cpp
-  MD5Anim.cpp
-  MD5FileData.cpp
-  MD5Mesh.cpp
-  MD5Node.cpp
-  Mesh.cpp
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  Mouse.cpp
-  OBJMesh.cpp
-  OGLRenderer.cpp
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  Quaternion.cpp
-  Shader.cpp
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  Window.cpp
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  正在生成代码...
-D:\GitHub\GameGraphic_coursewrok\nclgl\Keyboard.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  nclgl.vcxproj -> D:\GitHub\GameGraphic_coursewrok\Graphics For Games\Debug\nclgl.lib
+﻿  Shader.cpp
+  nclgl.vcxproj -> C:\Users\b8067791\source\repos\GameGraphic_coursewrok\Graphics For Games\Debug\nclgl.lib

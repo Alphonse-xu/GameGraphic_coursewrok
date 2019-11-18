@@ -1,13 +1,21 @@
 #version 330 core
 
-layout(location = 0) in vec3 vertexPos;
-layout(location = 1) in vec4 vertexCol;
+uniform mat4 modelMatrix;
+uniform mat4 viewMatrix;
+uniform mat4 projMatrix;
+uniform vec4 nodeColour;
 
-out Vertex {
-	vec4 colour;
+in vec3 position;
+in vec2 texCoord;
+
+out Vertex{
+vec2 texCoord;
+vec4 colour;
 } OUT;
 
-void main (void) {
-	gl_Position = vec4(vertexPos, 1.0);
-	OUT.colour = vertexCol;
+void main(void) {
+	gl_Position = (projMatrix * viewMatrix * modelMatrix) * vec4(position, 1.0);
+
+	OUT.texCoord = texCoord;
+	OUT.colour = nodeColour;
 }
