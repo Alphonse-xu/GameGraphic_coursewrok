@@ -53,8 +53,11 @@ public:
 	//Sets pitch, in degrees
 	void	SetPitch(float p) {pitch = p;}
 
+	int	CamLock();
+	int		flag = 1;
 protected:
 	float	yaw;
 	float	pitch;
 	Vector3 position;
+	
 };

@@ -1,5 +1,5 @@
 #pragma once
-#include "SceneNode.h" 
+#include "..\..\nclgl\SceneNode.h" 
 #include "..\..\nclgl\OBJMesh.h" 
 
 class SmallIsland : public SceneNode {

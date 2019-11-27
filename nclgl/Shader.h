@@ -1,10 +1,10 @@
-﻿#pragma once
+#pragma once
 #include"OGLRenderer.h"
 
 #define SHADER_VERTEX 0
 #define SHADER_FRAGMENT 1
 #define SHADER_GEOMETRY 2
-//三种类型的着色器
+
 using namespace std;
 
 class Shader {

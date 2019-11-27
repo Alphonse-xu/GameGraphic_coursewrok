@@ -21,8 +21,10 @@ void Camera::UpdateCamera(float msec)	{
 		yaw -= 360.0f;
 	}
 
-	msec *= 5.0f;
+	msec *= 1.0f;
 
+
+		
 	if(Window::GetKeyboard()->KeyDown(KEYBOARD_W)) {
 		position += Matrix4::Rotation(yaw, Vector3(0,1,0)) * Vector3(0,0,-1) * msec;
 	}
@@ -49,10 +51,20 @@ void Camera::UpdateCamera(float msec)	{
 Generates a view matrix for the camera's viewpoint. This matrix can be sent
 straight to the shader...it's already an 'inverse camera' matrix.
 */
-Matrix4 Camera::BuildViewMatrix()	{
+Matrix4 Camera::BuildViewMatrix() {
 	//Why do a complicated matrix inversion, when we can just generate the matrix
 	//using the negative values ;). The matrix multiplication order is important!
-	return	Matrix4::Rotation(-pitch, Vector3(1,0,0)) * 
-			Matrix4::Rotation(-yaw, Vector3(0,1,0)) * 
-			Matrix4::Translation(-position);
-};
+	return	Matrix4::Rotation(-pitch, Vector3(1, 0, 0)) *
+		Matrix4::Rotation(-yaw, Vector3(0, 1, 0)) *
+		Matrix4::Translation(-position);
+}
+
+int Camera::CamLock() {
+	
+	if (Window::GetKeyboard()->KeyDown(KEYBOARD_L)) {
+		flag++;
+		flag = flag % 2;
+		return flag;
+	}
+	return flag;
+}
